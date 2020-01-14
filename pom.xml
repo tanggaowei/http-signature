@@ -3,10 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>com.yongdui</groupId>
     <artifactId>http-signature</artifactId>
     <version>1.0.1</version>
+    <name>Http Signature Tool</name>
+    <description>
+        Sign the HTTP Data.
+    </description>
+    <url>https://github.com/yongdui/http-signature</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -52,7 +56,6 @@
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
-
 
     <profiles>
         <profile>
@@ -172,7 +175,7 @@
     <scm>
         <url>https://github.com/yongdui/http-signature.git</url>
         <connection>https://github.com/yongdui/http-signature.git</connection>
-        <developerConnection>https://github.com/yongdui</developerConnection>
+        <developerConnection>https://github.com/yongdui/http-signature</developerConnection>
     </scm>
 
     <developers>
